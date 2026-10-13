@@ -3,8 +3,6 @@ import java.awt.Point;
 
 public class FoodFactory {
 
-    private FoodFactory() {}
-
     public static Food createFood(Food.FoodType type, Point position) {
         switch (type) {
             case GOLDEN:
